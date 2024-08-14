@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smile Bright Dental</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .service-card:hover, .team-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+        }
+        .btn-center {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Smile Bright Dental</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#team">Our Team</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-primary text-white py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4">Your Smile, Our Passion</h1>
+                    <p class="lead">Experience top-notch dental care with our expert team.</p>
+                    <a href="#contact" class="btn btn-light btn-lg btn-center">Book Appointment</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="/api/placeholder/600/400" alt="Dental care" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <img src="/api/placeholder/400/300" alt="General Dentistry" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">General Dentistry</h5>
+                            <p class="card-text">Comprehensive care for all your dental needs, including check-ups, cleanings, and fillings.</p>
+                            <a href="#" class="btn btn-primary btn-center">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <img src="/api/placeholder/400/300" alt="Cosmetic Dentistry" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Cosmetic Dentistry</h5>
+                            <p class="card-text">Enhance your smile with our cosmetic treatments, including whitening and veneers.</p>
+                            <a href="#" class="btn btn-primary btn-center">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card service-card h-100">
+                        <img src="/api/placeholder/400/300" alt="Orthodontics" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Orthodontics</h5>
+                            <p class="card-text">Straighten your teeth for a perfect smile with our advanced orthodontic treatments.</p>
+                            <a href="#" class="btn btn-primary btn-center">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="bg-light py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="/api/placeholder/600/400" alt="Our clinic" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-6">
+                    <h2>About Smile Bright Dental</h2>
+                    <p>We are committed to providing the highest quality dental care in a comfortable and friendly environment. Our experienced team uses the latest technology to ensure your visit is as pleasant as possible.</p>
+                    <p>With over 20 years of experience, we've been serving our community with dedication and passion.</p>
+                    <a href="#" class="btn btn-primary btn-center">Our Story</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Meet Our Team</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card team-card">
+                        <img src="/api/placeholder/400/400" alt="Dr. Smith" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr. John Smith</h5>
+                            <p class="card-text">Lead Dentist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card team-card">
+                        <img src="/api/placeholder/400/400" alt="Dr. Johnson" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr. Emily Johnson</h5>
+                            <p class="card-text">Orthodontist</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card team-card">
+                        <img src="/api/placeholder/400/400" alt="Dr. Lee" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr. Michael Lee</h5>
+                            <p class="card-text">Cosmetic Dentist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">What Our Patients Say</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"The best dental experience I've ever had! The staff is friendly and professional."</p>
+                            <footer class="blockquote-footer">Sarah M.</footer>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <p class="card-text">"I'm so happy with my new smile! Thank you, Smile Bright Dental!"</p>
+                            <footer class="blockquote-footer">James L.</footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-5">Contact Us</h2>
+            <p class="lead mb-4">We're here to answer any questions you may have. Reach out to us anytime!</p>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-3">
+                    <a href="mailto:info@smilebrightdental.com" class="btn btn-primary btn-lg btn-block">Send Email</a>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <a href="tel:+11234567890" class="btn btn-success btn-lg btn-block">Call Now</a>
+                </div>
+            </div>
+            <div class="mt-5">
+                <h4>Our Location</h4>
+                <p>123 Smile Street, Dental City, DC 12345</p>
+                <h4>Business Hours</h4>
+                <p>Monday - Friday: 9am - 6pm<br>Saturday: 10am - 2pm<br>Sunday: Closed</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Smile Bright Dental. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
